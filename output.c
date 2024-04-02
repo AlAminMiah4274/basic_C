@@ -17,7 +17,7 @@ int main()
     // printf("output is: %d%% %d%%", num1, num2);
 
     int a, b;
-    scanf("%da %db", &a, &b);
-    printf("output is: %da %db", a, b);
+    scanf("%d%% %d%%", &a, &b);
+    printf("output is: %d%% %d%%", a, b);
     return 0;
 }
