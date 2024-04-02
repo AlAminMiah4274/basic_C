@@ -1,31 +1,16 @@
-// #include <stdio.h>
-// int main()
-// {
-//     printf("This is Al Amin Miah.\nI want to be a programmer.");
-//     return 0;
-// }
+#include <stdio.h>
+int main()
+{
+    // printf("This is Al Amin Miah.\nI want to be a programmer.");
 
-// #include <stdio.h>
-// int main()
-// {
-//     printf("Habijabi: !@#$^&*+_=-,.,");
-//     return 0;
-// }
+    // printf("Habijabi: !@#$^&*+_=-,.,");
 
+    // printf("\\");
 
-// #include <stdio.h>
-// int main()
-// {
-//     // printf("\\");
-//     return 0;
-// }
+    printf("100%%");
+    return 0;
+}
 
-// #include <stdio.h>
-// int main()
-// {
-//     printf("100%%");
-//     return 0;
-// }
 
 /*
 special character: (ESCAPE)
