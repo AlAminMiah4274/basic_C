@@ -2,7 +2,7 @@
 int main()
 {
     int a = 10, b = 10;
-    int result = a >= b;
+    int result = a > b;
     printf("%d", result);
     return 0;
 }
