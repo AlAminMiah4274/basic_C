@@ -4,13 +4,16 @@ int main()
     int number;
     scanf("%d", &number);
 
-    if(number > 0){
+    if (number > 0)
+    {
         printf("It is a positive number");
     }
-    else if(number == 0){
+    else if (number == 0)
+    {
         printf("It is zero");
     }
-    else{
+    else
+    {
         printf("It is a negative number");
     }
 

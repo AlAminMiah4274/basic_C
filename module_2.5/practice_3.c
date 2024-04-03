@@ -4,10 +4,12 @@ int main()
     int number;
     scanf("%d", &number);
 
-    if(number % 2 == 0){
+    if (number % 2 == 0)
+    {
         printf("It is a even number.");
     }
-    else{
+    else
+    {
         printf("It is a odd number.");
     }
 
