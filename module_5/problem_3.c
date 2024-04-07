@@ -4,7 +4,9 @@ int main()
     char x;
     scanf("%c", &x);
 
-    if (x >= 65 && x <= 90)
+    // if (x >= 65 && x <= 122)
+
+    if (x >= 'A' && x <= 'Z')
     {
         int lower = x + 32;
         printf("%c", lower);
@@ -17,3 +19,7 @@ int main()
     
     return 0;
 }
+
+/*
+ASCII value: A-Z: 65-90 | a-z: 97-122
+*/
