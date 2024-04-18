@@ -13,14 +13,18 @@ int main()
     long long int sum = 0;
     for (int i = 0; i < n; i++)
     {
-        sum += array_sum[i];
-        if(sum < 0)
-        {
-            long long int positive_sum = sum * 1;
-        }
+        sum += array_sum[i]; 
     }
 
-    printf("%lld\n", sum);
+    if(sum < 0)
+    {
+        long long int positive_sum = sum * -1;
+        printf("%lld\n", positive_sum);
+    }
+    else
+    {
+        printf("%lld\n", sum);
+    }
 
     return 0;
 }
