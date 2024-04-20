@@ -18,8 +18,7 @@ int main()
 
     if(sum < 0)
     {
-        long long int positive_sum = sum * -1;
-        printf("%lld\n", positive_sum);
+        printf("%d\n", sum);
     }
     else
     {
