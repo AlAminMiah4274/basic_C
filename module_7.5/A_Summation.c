@@ -16,12 +16,14 @@ int main()
         sum += array_sum[i]; 
     }
 
-    if(sum < 0)
+    // printf("%lld\n", sum);
+    if(sum > 0)
     {
-        printf("%d\n", sum);
+        printf("%lld\n", sum);
     }
-    else
+    else 
     {
+        sum *= -1;
         printf("%lld\n", sum);
     }
 
