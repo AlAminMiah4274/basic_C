@@ -1,2 +1,2 @@
-nt x;
-    // scanf("%d", &x);
+
+    // scanf("%d %d", &x, &v);
