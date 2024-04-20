@@ -1,2 +1,4 @@
-
-    // scanf("%d %d", &x, &v);
+f(x != find_numbers[i])
+        // {
+        //     printf("-1\n");
+        // }
