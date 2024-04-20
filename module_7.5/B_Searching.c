@@ -11,7 +11,7 @@ int main()
     }
 
     int x;
-    scanf("%d", &n);
+    scanf("%d", &x);
     int answer = -1;
 
     for (int i = 0; i < n; i++)
@@ -19,6 +19,7 @@ int main()
         if(x == find_numbers[i])
         {
             answer = i;
+            break;
         }
     }
 
