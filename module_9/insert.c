@@ -10,6 +10,7 @@ int main()
         scanf("%d", &insert_number[i]);
     }
 
+    // moving the value right to left for inserting 
     int position, value;
     scanf("%d %d", &position, &value);
 
