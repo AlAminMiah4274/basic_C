@@ -19,25 +19,25 @@ int main()
         scanf("%d", &second_array[i]);
     }
 
-    int size_copied_array = first_size + second_size;
-    int copied_array[size_copied_array];
+    int third_array_size = first_size + second_size;
+    int third_array[third_array_size];
 
     for(int i = 0; i < first_size; i++)
     {
-        copied_array[i] = first_array[i];
+        third_array[i] = first_array[i];
     }
 
-    int available_position_copied_array = first_size;
+    int available_space_of_third_array = first_size;
 
     for(int i = 0; i < second_size; i++)
     {
-        copied_array[available_position_copied_array] = second_array[i];
-        available_position_copied_array++;
+        third_array[available_space_of_third_array] = second_array[i];
+        available_space_of_third_array++;
     }
 
-    for(int i = 0; i < size_copied_array; i++)
+    for(int i = 0; i < third_array_size; i++)
     {
-        printf("%d\n", copied_array[i]);
+        printf("%d\n", third_array[i]);
     }
 
     return 0;
