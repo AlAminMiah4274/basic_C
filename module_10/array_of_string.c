@@ -1,10 +1,9 @@
-
 #include <stdio.h>
 int main()
 {
     int name[6];
-    int value = sizeof(name);
-    printf("%d\n", value);
+    int size_of_name = sizeof(name);
+    printf("%d\n", size_of_name);
 
     // for(int i = 0; i < 6; i++)
     // {
