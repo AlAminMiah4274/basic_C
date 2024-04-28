@@ -1,18 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 int main()
 {
     char text[100];
     scanf("%s", text);
-
-    int length_string = 0;
-    int i = 0;
-    while(text[i] != '\0')
-    {
-        length_string++;
-        i++;
-    }
-
-    printf("%d\n", length_string);
+    int length_text = strlen(text);
+    printf("%d\n", length_text);
 
     return 0;
 }
