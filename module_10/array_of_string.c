@@ -1,21 +1,14 @@
 #include <stdio.h>
+#include <string.h>
 int main()
 {
-    int name[6];
-    int size_of_name = sizeof(name);
-    printf("%d\n", size_of_name);
+    char name[11];
+    fgets(name, 11, stdin);    
 
-    // for(int i = 0; i < 6; i++)
-    // {
-    //     scanf("%c", &name[i]);
-    // }
-
-    // for(int i = 0; i < 6; i++)
-    // {
-    //     printf("%c\n", name[i]);
-    // }
+    printf("%s\n", name);
 
     return 0;
+    
 }
 
 // to find out array size we can use sizeof() method 

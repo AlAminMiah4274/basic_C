@@ -1,5 +1,5 @@
 {
-    "C_Cpp.default.compilerPath": "/media/miah/New Volume1/phitron/introduction_to_c/module_10/array_of_string",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
     "files.associations": {
         "typeinfo": "c"
     }
