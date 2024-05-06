@@ -10,16 +10,18 @@ int main()
     {
         if (string_one[i] == '\0' && string_two[i] == '\0')
         {
-            printf('same\n');
+            printf("They are same\n");
             break;
         }
         else if (string_one[i] == '\0')
         {
             printf("string one is small\n");
+            break;
         }
         else if (string_two[i] == '\0')
         {
             printf("string two is small\n");
+            break;
         }
 
         if (string_one[i] == string_two[i])
@@ -28,12 +30,12 @@ int main()
         }
         else if (string_one[i] < string_two[i])
         {
-            printf("string one small");
+            printf("string one is small\n");
             break;
         }
         else 
         {
-            printf("string two is small");
+            printf("string two is small\n");
             break;
         }
     }
