@@ -11,17 +11,17 @@ int main()
         scanf("%d", &number[i]);
     }
 
-    int number_count[21] = {0};
-    for (int i = 0; i < n; i++)
+    int counting[11] = {0};
+    for(int i = 0; i < n; i++)
     {
-        number_count[number[i]]++;
+        counting[number[i]]++;
     }
 
-    for (int i = 0; i < 21; i++)
+    for(int i = 0; i < 11; i++)
     {
-        if (number_count[i] != 0)
+        if (counting[i] != 0)
         {
-            printf("%d - %d\n", i, number_count[i]);
+            printf("%d %d\n", i, counting[i]);
         }
     }
 
