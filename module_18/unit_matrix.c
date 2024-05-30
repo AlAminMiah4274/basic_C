@@ -14,7 +14,6 @@ int main()
     }
 
     int flag = 1;
-    // is it square matrix or not
     if (row != col)
     {
         flag = 0;
@@ -23,9 +22,9 @@ int main()
     {
         for (int j = 0; j < col; j++)
         {
-            if (i = j)
+            if (i == j)
             {
-                if (numbers[i][j] != numbers[0][0])
+                if (numbers[i][j] != 1)
                 {
                     flag = 0;
                 }
@@ -40,11 +39,11 @@ int main()
 
     if (flag)
     {
-        printf("Diagonal matrix\n");
+        printf("Unit matrix\n");
     }
-    else 
+    else
     {
-        printf("Not diagonal matrix\n");
+        printf("Not unit matrix\n");
     }
 
     return 0;
