@@ -17,14 +17,12 @@ int main()
         }
 
         // to print required value
-        while (divisor != 0)
+        do
         {
-            // int digit = number / divisor % 10;
-            // printf("%d ", digit);
-
             printf("%d ", number / divisor % 10);
             divisor /= 10;
-        }
+        } while (divisor != 0);
+
         printf("\n");
     }
 

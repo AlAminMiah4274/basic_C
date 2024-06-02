@@ -9,14 +9,11 @@ int main()
         int number;
         scanf("%d", &number);
 
-        while (number != 0)
+        do
         {
-            // int digit = number % 10;
-            // printf("%d ", digit);
-
             printf("%d ", number % 10);
             number /= 10;
-        }
+        } while (number != 0);
         printf("\n");
     }
 
